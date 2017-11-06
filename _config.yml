@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Becoming a Computer Programmer
 header-img: img/home-bg.png
 email: jeffreywithers@gmail.com
 copyright_name: kostanzhoglo
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning About Learning
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kostanzhoglo
