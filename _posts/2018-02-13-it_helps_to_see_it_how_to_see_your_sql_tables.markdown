@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "It Helps to See It! How to See your SQL Tables"
-date:       2018-02-13 18:35:35 +0000
+date:       2018-02-13 13:35:36 -0500
 permalink:  it_helps_to_see_it_how_to_see_your_sql_tables
 ---
 
@@ -42,11 +42,11 @@ The above is my terminal directory prompt.  **sql-library-lab-v-000** is the Fla
 	 
 	 
 4) ADD your tables to the new database file:
-5) 
+ 
    `$  sqlite3 library_lab_tables.db < schema.sql`
 	 
 5) ADD your data to the database file:
-6) 
+
    `$  sqlite3 library_lab_tables.db < insert.sql`
 	 
 6) Ok, now your new database file is full of the info you need.  Time to see it visually.  Go to your desktop or applications folder, and OPEN the SQL Browser you recently downloaded.  For me, that's **DB Browser for SQLite**.
