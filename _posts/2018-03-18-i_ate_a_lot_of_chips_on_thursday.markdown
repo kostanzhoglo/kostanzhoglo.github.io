@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "I Ate a Lot of Chips on Thursday:"
-date:       2018-03-19 01:10:52 +0000
+title:      "I Ate a Lot of Chips on Thursday..."
+date:       2018-03-18 21:10:53 -0400
 permalink:  i_ate_a_lot_of_chips_on_thursday
 ---
 
