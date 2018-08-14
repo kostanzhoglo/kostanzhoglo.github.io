@@ -56,7 +56,7 @@ const identity = "I'm Bruce Wayne"
 
 const boardMeeting = () => {
     const company = "Hot Dogs R Us"
- return `Yes, we should buy ${company} immediately, and ${identity}.`
+		return `Yes, we should buy ${company} immediately, and ${identity}.`
 }
 
 boardMeeting()
