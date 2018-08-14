@@ -69,7 +69,7 @@ company
 If you're lucky enough to be in the Board Room meeting, you know which company Bruce has his eye on.  However, to the general public (i.e., GLOBALLY), no one knows what **company** Mr. Wayne wants to buy.  The variable has LOCAL SCOPE only to the **boardMeeting()** function.
 
 
-3) Going back to the **Scope Chain**, even if you declare and define the same variable inside and outside a functiuon, as soon as the JavaScript engine finds a suitable value for the variable, it will stop looking up the Scop Chain.
+3) Going back to the **Scope Chain**, even if you declare and define the same variable inside and outside a functiuon, as soon as the JavaScript engine finds a suitable value for the variable, it will stop looking up the Scope Chain.
 
 ```
 const identity = "I'm Bruce Wayne"
@@ -91,9 +91,9 @@ Let's dive into some **Hoisting** while we're at it.  Hoisting occurs because Ja
 
 During the Compilation phase, the JS engine will store declared functions and variables in memory.  It won't store their values, just that they exist.
 
-During the Executuion phase, JS looks for the values of the functions and variables.  
+During the Execution phase, JS looks for the values of the functions and variables.  
 
-These two phases can create some bizarre behavior in JS when running code.  Let's see if we can clear up some confusion.  An important thing to remember with Hoisting is that **var** is the keyword that can really get you into trouble here.  **const** and **let** will also technically get hoisted, but they will often throw an Error when hoisting becomes troublesome.  The tricky aspect of **var** is that it won't throw an error, but will simply return `undefined`.  Examples will help you see what I mean...
+These two phases can create some bizarre behavior in JS when running code.  Let's see if we can clear up some confusion.  An important thing to remember with Hoisting is that **var** is the keyword that can really get you into trouble here.  **const** and **let** will also technically get hoisted, but they will throw an Error when hoisting becomes troublesome.  The tricky aspect of **var** is that it won't throw an error, but will simply return `undefined`.  Examples will help you see what I mean...
 
 4A) Hoisting in action with **var**
 
@@ -105,7 +105,7 @@ function iAmBatman() {
 
 iAmBatman()
     // => undefined       (console log)
-                undefined
+       undefined
 ```
 
 When calling `iAmBatman()`, the first line printed above is printed to the console.  The final line is the actual return value of the function.
