@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Careful Mr. Wayne... (Scope & Hoisting in JavaScript)"
-date:       2018-08-14 18:32:03 +0000
+date:       2018-08-14 14:32:04 -0400
 permalink:  careful_mr_wayne_scope_and_hoisting_in_javascript
 ---
 
@@ -56,7 +56,7 @@ const identity = "I'm Bruce Wayne"
 
 const boardMeeting = () => {
     const company = "Hot Dogs R Us"
-		return `Yes, we should buy ${company} immediately, and ${identity}.`
+ return `Yes, we should buy ${company} immediately, and ${identity}.`
 }
 
 boardMeeting()
