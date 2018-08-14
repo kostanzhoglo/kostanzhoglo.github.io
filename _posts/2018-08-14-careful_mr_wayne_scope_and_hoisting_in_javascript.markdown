@@ -153,9 +153,9 @@ function iAmBatman() {
 
 Well, that's a little better.  Bruce can finally tell us who he is, after he stammers out "undefined" at first.
 
-HELPFUL HINT
+**HELPFUL HINT** //
 
-But the way to *truly* fix this is to place any variable declarations and definitions at the TOP of whatever scope you're in, whether that be Global or a local function.  It's a best practice to avoid confusion, and always let Bruce Wayne speak from the heart.  Here's an example:
+The way to *truly* fix this is to place any variable declarations and definitions at the TOP of whatever scope you're in, whether that be Global or a local function.  It's a best practice to avoid confusion, and always let Bruce Wayne speak from the heart.  Here's an example:
 
 4C)
 ```
