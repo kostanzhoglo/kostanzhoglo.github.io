@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Leave Yourself Some Breadcrumbs. "
-date:       2018-09-05 21:11:01 +0000
+date:       2018-09-05 17:11:02 -0400
 permalink:  leave_yourself_some_breadcrumbs
 ---
 
@@ -17,8 +17,8 @@ And now, here I am, and there's this sort-of-crazy-feeling, where I know how muc
 
 But, back to my React-Redux final project.  There's a few points I'd like to highlight about my work on this project.
 
-### Let your variable be breadcrumbs, to give you hints along the way!
-#### As told through combineReducers(), fetch and other variables...
+## Let your variable be breadcrumbs, to give you hints along the way!
+## As told through combineReducers(), fetch and other variables...
 
 During some labs in Flatiron, but especially when I was working on my projects, I found that I would run into very similar variables.  The same thing happened in this project.  When I'm in the middle of trying to solve an issue and I'm running into variables like `state.workouts.workouts` it doesn't always help for me to start figuring out where each of those "workout"s is coming from.  It happened to me when I was trying to get my workouts array to render to my component.  When I saw the double up of words, I start to wonder where exactly in my app is the bug coming from.  Is it "workouts" or "workouts"?  
 
@@ -70,7 +70,7 @@ Does it give me a little more context, to remember which variables go where?  Ye
 
 Using the above breadcrumbs helped me solve a problem where I had to follow the bug from my action ---> to the Rails database ---> to the redux store ---> and then finally, to see that the issue was in my parent container component passing down some faulty props to my presentational component.  Every breadcrumb helped!
 
-### P.S. namespacing your Rails backend to "api"
+## P.S. namespacing your Rails backend to "api"
 
 One other hiccup I had during this process was that I namespaced my Rails side to "api".
 
