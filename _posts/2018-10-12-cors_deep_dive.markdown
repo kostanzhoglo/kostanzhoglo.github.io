@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CORS Deep Dive"
-date:       2018-10-12 21:24:22 +0000
+date:       2018-10-12 17:24:23 -0400
 permalink:  cors_deep_dive
 ---
 
@@ -18,7 +18,7 @@ Below is the code I was using to make my request.  (DISCLAIMER: the names of the
       }
     )
   }
-	```
+```
 
 I fired up my app to test whether the fetch request was working. I decided to search for recipes with *carrots* as an ingredient, but after submitting my query, to my dismay, in my browser console this error popped up:
 
