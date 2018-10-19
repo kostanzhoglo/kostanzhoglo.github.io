@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "CSS Grid, Just the Basics"
-date:       2018-10-19 18:18:08 +0000
+date:       2018-10-19 14:18:09 -0400
 permalink:  css_grid_just_the_basics
 ---
 
 
-This week I started working through Wes Bos' course on [CSS Grid](https://cssgrid.io/).  I've only worked through the first 3rd of the course so far, and I think I should be finished by next week.  But I wanted to share some of the tips I've learned so far, that I have a feeling I'll be using a lot more in the coming weeks, months, years...
+This week I started working through Wes Bos' course on [CSS Grid](https://cssgrid.io/).  I've only worked through the first 3rd of the course so far, and I should be finished by next week.  But I wanted to share some of the tips I've learned so far, as I have a feeling I'll be using these a lot more in the coming weeks, months, years...
 
 Oh, also, before I forget, the course is well laid out, FREE, and seriously helpful!  Wes is a Really clear teacher, and doesn't make assumptions about what you know.  He sidebars and explains other ancillary concepts that will help you gain a deeper understanding of the subject material.  I highly recommend the course!  He even has an [AMA](https://github.com/wesbos) (Ask Me Anything) GitHub page, and answers tons of questions very quickly.
 
@@ -36,7 +36,7 @@ Simple as that.  But will help keep your colors standard, with no fuss over reme
 ### Download the Firefox Developer Edition when doing CSS Work
 In the beginning of the course, Wes recommended downloading the Firefox Developer Edition program.  I've been a Chrome convert for years now, and am accustomed to those devtools, so I had to be convinced, but it **Didn't Take Long**.  
 
-As soon as you open the console, go to the **Inspector** tab and in the sub-area on the lower right, choose the **Layout** tab, and it's beautiful, well-organized, and lets you dissect the page to really see what space you're working with, and what you've explicitly designed already, and which areas allow for more flexibility.
+As soon as you open the console in the newly downloaded Firefox browser, go to the **Inspector** tab and in the sub-area on the lower right, choose the **Layout** tab, and it's beautiful, well-organized, and lets you dissect the page to really see what space you're working with, both what you've explicitly designed already, and which areas allow for more flexibility.
 
 In the future, I'll be using this browser when doing anything CSS.  I'll probably devote a future post about the devtools on their own.
 
@@ -55,6 +55,15 @@ The CSS is:
       grid-gap: 30px;
       grid-auto-rows: 150px;
     }
+		
+  .item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    font-size: 20px;
+    background-color: var(--purple);
+  }
 ```
 
 `display` is just to alert the browser you'll be using **grid** instead of **flex** or some other configuration.
