@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Getting Back to Basics"
-date:       2018-10-26 19:20:18 +0000
+date:       2018-10-26 15:20:19 -0400
 permalink:  getting_back_to_basics
 ---
 
@@ -14,12 +14,14 @@ They're both comparison operators.
 == is a Loose comparison.  It cares about Value and not about Type.  If I was comparing the following:
 
 `"2" == 2` 
+
 I would get **true** returned.  
 The JS engine will look at these two values, and it will convert the TYPE of the primitive data on the right into the TYPE of the primitive data on the left.  In this case, it's changing the integer 2 into a string.  Only **after** the conversion will it compare the values.  2 == 2, so **true** is returned.
 
 === is a Strict comparison. It cares about Value AND Type.
 
-`"2"===2` 
+`"2" === 2` 
+
 I would get **false** returned.  
 As soon as the . JS engine sees a string and an integer, it already knows they're not equal.  Game over... false!
 
@@ -28,26 +30,33 @@ Different ways to assign variables in JS.
 
 **var** is old school, the original variable assigner!  It's been around forever.  
 var hoists!
+
 var has *function* scope.  If I have an `if` clause and define a variable inside that code block, it's still accessible within the rest of that function.  It can trip a person up, because I usually think all variables become unavailable outside of a code block, but not so with var.
+
 With var, you can declare a variable at one point, and assign it a value later on.
 var also allows for it's values to be *reassigned*.
 
 **let** and **const** are the new(er) kids on the block!  They were introduced in ES6.
 Neither let nor const hoist!
+
 They both have *block* scope.  Easier to see where they're available!
+
 Here's where the two newbies differ:
 let shares some behavior with var.  You can declare a variable at one point, and assign it a value later on.
+
 let also allows for it's values to be *reassigned*.
 
 const must be declared AND assigned a value at the same time.  It will error out otherwise.
+
 Also, for primitive data types, const can NOT be reassigned a value.
+
 However, a little tidbit to know... If const was used on an object, that value CAN be modified.  It just can't be reassigned.
 
 So, this is ok with const and the JS engine...
 
 ```
 const newArray = [2, 4, 6, 8]
-newArray, push("who do we appreciate?")
+newArray.push("who do we appreciate?")
 newArray = [2, 4, 6, 8, "who do we appreciate?"]
 ```
 
