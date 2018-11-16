@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "SQL you say? Part 2 you say? Why yes, if I may!"
-date:       2018-11-16 11:18:38 +0000
+date:       2018-11-16 06:18:39 -0500
 permalink:  sql_you_say_part_2_you_say_why_yes_if_i_may
 ---
 
@@ -89,11 +89,17 @@ _    === 1 character
 Put that in and you'll get all customers' names that begin with "A".
 
 OTHER % and _ options...
-'&a'  -- any customer name that ends in "A".
-'%the%' -- any customer name with "THE" in it anywhere.
-'_d%' -- any name that has a d in 2nd position.
-'a%e' -- any name that starts with "A" and ends with "E".
-'a_%_%' -- any name that starts with "A" and are 3 or more characters long.
+
+`'&a'`  -- any customer name that ends in "A".
+
+`'%the%'` -- any customer name with "THE" in it anywhere.
+
+`'_d%'` -- any name that has a d in 2nd position.
+
+`'a%e'` -- any name that starts with "A" and ends with "E".
+
+`'a_%_%'` -- any name that starts with "A" and are 3 or more characters long.
+
 
 
 Well, phew, we did it!  Well, I wrote it and you read it!
