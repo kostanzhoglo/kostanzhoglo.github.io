@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Glossary Throwdown, Part II"
-date:       2018-11-24 21:26:59 +0000
+date:       2018-11-24 16:27:00 -0500
 permalink:  glossary_throwdown_part_ii
 ---
 
 
-I started this glossary a couple of weeks ago.  To see the first installment, click here.
+I started this glossary a couple of weeks ago.  To see the first installment, click [here](http://jeffreywithers.com/i_o_lamp_mean_and_the_acronym_throwdown).
 
 There's lots of info that people may take for granted you understand and are well-versed in when operating in the software engineering world.  But, I need to check my ego at the door, and make sure I've read up on and understand some basic terminology and paradigms, so I don't get ahead of myself.  If you're like me, then this post is for you!
 
